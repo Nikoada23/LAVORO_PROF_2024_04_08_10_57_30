@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas3D(600, 400);
+  createCanvas3D(windowWidth, windowHeight);
   background3D("lightblue");
     environment(mySkybox);
 
@@ -56,4 +56,8 @@ let lato = 100;
 function draw() {
   // 🔍 Never create objects here, but don't forget to have it in your code:
   // leave empty for the moment
+}
+function windowResized (){
+  resizeCanvas3D(windowWidth, windowHeight)
+
 }
