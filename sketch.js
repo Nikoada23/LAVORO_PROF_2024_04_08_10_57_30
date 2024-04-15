@@ -14,6 +14,7 @@ function preload() {
 
 function setup() {
   createCanvas3D(windowWidth, windowHeight);
+  getOrbit().autoRotate = true;
   background3D("lightblue");
     environment(mySkybox);
 
