@@ -17,6 +17,7 @@ function setup() {
   getOrbit().autoRotate = true;
   background3D("lightblue");
     environment(mySkybox);
+    setCamera(0,10,15);
 
   
   
