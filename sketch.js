@@ -23,6 +23,8 @@ function setup() {
   
   diffuse("green");
   let albero= beginGroup();
+  roughness(0.1);
+  pushFX(BLOOM);
   sphere(0, 3, 0,2);
   diffuse("green");
   icosahedron(0,3,0,2.295)
